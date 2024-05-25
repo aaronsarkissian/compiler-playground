@@ -1,0 +1,17 @@
+process.stdin.setEncoding('utf-8');
+let inputString: string = '';
+let currentLine: number = 0;
+let inputStringArray: string[];
+
+process.stdin.on('data', (inputStdin: string) => {
+  inputString += inputStdin;
+});
+process.stdin.on('end', (_: any) => {
+  inputStringArray = inputString.replace(/\s*$/, '')
+    .split('\n')
+    .map(str => str.replace(/\s*$/, ''));
+  main();
+});
+function readLine() {
+  return inputStringArray[currentLine++];
+}
