@@ -58,10 +58,6 @@ Table of Contents
 
 - [Conclusion](#conclusion)
 
-- [Figure content](#figure-content)
-
-#
-
 # Abstract
 
 Build a service that provides different online compilers that enables the user to run and compile codes remotely and get the results back instantly without affecting or disturbing other users' code compilation and flow.
@@ -612,69 +608,3 @@ This shows that our service is capable of collecting all the results and combine
 # Conclusion
 
 By way of conclusion, with growing E-Learning platforms and the need of more accessible and user-friendly tools for programming, online compilers come for help. As we saw in the examples in this paper it was promising and can be configured to work with many different languages and scenarios. Using such service is beneficial for many cases but mostly for the beginners and cases where the environment needs to be controlled.
-
-# Figure content
-
-[Figure 1 - The difference between Docker and virtual machines](#_Toc103168760)
-
-[Figure 2 - Dockerfile sample of installing a compiler](#_Toc103168761)
-
-[Figure 3 - Dockerfile sample of using a prebuilt image](#_Toc103168762)
-
-[Figure 4 - API documentation view](#_Toc103168763)
-
-[Figure 5 - The code snippet which determines the language and read the configs on how to compile the code](#_Toc103168764)
-
-[Figure 6 – Directory creation and pre setup steps](#_Toc103168765)
-
-[Figure 7 – Parameters and flags on how to run the code](#_Toc103168766)
-
-[Figure 8 - Bash script which set constraints and time limit on containers](#_Toc103168767)
-
-[Figure 9 – The logic behind compiling the code and redirect outputs](#_Toc103168768)
-
-[Figure 10 - Bash script, which checks the output size and trims if needed](#_Toc103168769)
-
-[Figure 11 – collect all the outputs, combine them and return as a unified output](#_Toc103168770)
-
-[Figure 12 – Handle image as an output](#_Toc103168771)
-
-[Figure 13 - API containers running compiler containers inside them](#_Toc103168772)
-
-[Figure 14 – Java main method discovery](#_Toc103168773)
-
-[Figure 15 – Java creates multiple files based on public classes](#_Toc103168774)
-
-[Figure 16 – Find and replace the output in HTML doc](#_Toc103168775)
-
-[Figure 17 – HTML template for SQL outputs](#_Toc103168776)
-
-[Figure 18 – Applications start shell script](#_Toc103168777)
-
-[Figure 19 – Sample SQL script](#_Toc103168778)
-
-[Figure 20 – SQL output result](#_Toc103168779)
-
-[Figure 21 – SQL output result on mobile](#_Toc103168780)
-
-[Figure 22 – Java Dockerfile for database connections](#_Toc103168781)
-
-[Figure 23 – Java JDBC driver classpath](#_Toc103168782)
-
-[Figure 24 – Java code to connect, insert and select from DB](#_Toc103168783)
-
-[Figure 25 – The output of the Java DB flow](#_Toc103168784)
-
-[Figure 26 – Java multiple public class in a single file example](#_Toc103168785)
-
-[Figure 27 – C++ user input popup](#_Toc103168786)
-
-[Figure 28 – Go lang factorial calculator output on mobile](#_Toc103168787)
-
-[Figure 29 – Python image plotting output](#_Toc103168788)
-
-[Figure 30 – C++ timeout exception output](#_Toc103168789)
-
-[Figure 31 – Java multiple errors output](#_Toc103168790)
-
-[Figure 32 – Python code output and error](#_Toc103168791)
